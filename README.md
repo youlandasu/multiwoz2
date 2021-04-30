@@ -1,3 +1,17 @@
+# Acknowledgement
+Mostly from [https://github.com/budzianowski/multiwoz](https://github.com/budzianowski/multiwoz).
+
+# How to use 
+For analyzing statistics of the dataset, first place the dataset under `data`, then run:
+```{python}
+python prepare_data.py [path_to_dataset] [train/dev/test]
+```
+
+For example, on the MuliWOZ_2.2 training set:
+```{python}
+python prepare_data.py MultiWOZ_2.2 train
+```
+
 # MultiWOZ
 Multi-Domain Wizard-of-Oz dataset (MultiWOZ), a fully-labeled collection of human-human written conversations spanning over multiple domains and topics. At a size of 10k dialogues, it is at least one order of magnitude larger than all previous annotated task-oriented corpora.
 
